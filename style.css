@@ -151,7 +151,15 @@ img {
 .ptb_100 {
     padding: 100px 0;
 }
-
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--bg-light-pink);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--bg-gradient);
+}
 /* 
 ===========================
          header
