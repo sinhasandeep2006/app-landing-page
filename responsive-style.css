@@ -1,0 +1,19 @@
+@media (max-width:1030px){
+
+}
+@media (max-width:991px){
+    h1,h2{
+        font-size: 2.5rem;
+    }
+    .ipad_px_30{
+        padding: 0 1.875rem;
+    }
+}
+@media (max-width:767px){
+    .mobile-px-20{
+        padding: 0 1.25rem;
+    }
+}
+@media (max-width:1030px){
+    
+}
