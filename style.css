@@ -211,8 +211,8 @@ color: var(--text-light-pink);
     transition: none;
 }
 .navbar-sticky-transitioned{
-    -webkit-transition:.3s;
-    transition:.3s ;
+    -webkit-transition:0.3s;
+    transition:0.3s ;
 }
 .navbar-sticky-moved-up{
     position: fixed;
@@ -297,4 +297,32 @@ color: var(--text-light-pink);
     50%{
         transform: translateY(-3.5rem);
     }
+}
+
+.counter_area{
+    padding: 6.875rem 0 1.875rem;
+}
+.single_counter{
+    position: relative;
+
+}
+.single_counter span{
+    font-size: 3rem;
+    background: var(--bg-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.single_counter::after{
+    position: absolute;
+    content: '';
+    height: 70%;
+    width: 0.063rem;
+    background-color:var(--bg-black) ;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    opacity: 0.15;
+}
+.single_counter:last-child::after{
+    display: none;
 }
