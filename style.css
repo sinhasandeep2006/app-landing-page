@@ -399,3 +399,10 @@ color: var(--text-light-pink);
     background-repeat:  no-repeat;
     background-position: center center;
 }
+.single_promo_1 h5{
+    padding-top: 0.43rem;
+}
+.single_promo_1 p{
+    padding-top: 0.625rem;
+    font-size: 0.938rem;
+}
