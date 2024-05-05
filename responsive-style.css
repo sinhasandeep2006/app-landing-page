@@ -1,5 +1,7 @@
 @media (max-width:1030px){
-
+.margin_top_up{
+    margin-top: -25rem;
+}
 }
 @media (max-width:991px){
     h1,h2{
@@ -79,7 +81,20 @@
         text-align: center;
         transform: rotate(0deg);
    }
-}
-@media (max-width:1030px){
-    
+   .single_counter:nth-child(2)::after{
+    display: none;
+   }
+   .margin_top_up{
+    margin-top: 0rem;
+   }
+   .features_middle{
+    text-align: center;
+   }
+   .features_img{
+    text-align: center;
+    padding-top: 1.5rem;
+   }
+   .features_img img{
+    max-width: 95%;
+   }
 }
