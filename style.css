@@ -480,3 +480,19 @@ svg:not(:root).svg-inline--fa{
     color:var(--text-white);
     background: var(--bg-gradient);
 }
+
+
+.app-screen {
+    padding-bottom: 5.313rem;
+}
+.app-screen .swiper-slide {
+    width: 263px !important;
+    height: auto;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+}
+.swiper-pagination-bullet {
+    width: 0.75rem;
+    height: 0.75rem;
+}
