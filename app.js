@@ -52,9 +52,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
    counter("count4",0,10,2000);
 });
 
-
-
-var swiper = new Swiper( '.swiper-container.app-screen', {
+  
+  var swiper = new Swiper( '.mySwiper', {
     effect: 'coverflow',
     loop: true,
     autoplaySpeed: 3000,
@@ -77,4 +76,3 @@ var swiper = new Swiper( '.swiper-container.app-screen', {
         slideShadows : false,
     }
 });  
-  

@@ -481,12 +481,11 @@ svg:not(:root).svg-inline--fa{
     background: var(--bg-gradient);
 }
 
-
-.app-screen {
+.mySwiper{
     padding-bottom: 5.313rem;
 }
-.app-screen .swiper-slide {
-    width: 263px !important;
+.mySwiper .swiper-slide {
+    width: 263px;
     height: auto;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
